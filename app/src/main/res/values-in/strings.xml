@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sups</string>
+    <string name="login">Masuk</string>
+    <string name="email">Email</string>
+    <string name="email_invalid">Email tidak valid!</string>
+    <string name="password">Kata Sandi</string>
+    <string name="password_invalid">Kata Sandi minimal8 karakter</string>
+    <string name="register_first">Belum punya akun?</string>
+    <string name="register_now">Daftar sekarang</string>
+    <string name="register">Daftar</string>
+    <string name="cannot_be_empty">Tidak bolek kosong</string>
+    <string name="name">Nama</string>
+    <string name="already_have_account">Sudak punya akun?</string>
+    <string name="content_image">Konten Gambar</string>
+    <string name="an_error_occurred">Terjadi kesalahan</string>
+    <string name="no_data_available">Data Kosong</string>
+    <string name="date">Tanggal</string>
+    <string name="description">Deskripsi</string>
+    <string name="add_story">Tambah Cerita</string>
+    <string name="double_back_exit">Tekan lagi untuk keluar</string>
+    <string name="detail">Detail</string>
+    <string name="language">Bahasa</string>
+    <string name="logout">Keluar</string>
+    <string name="logout_confirm">Anda yakin?</string>
+    <string name="cancel">Batal</string>
+    <string name="confirm">Konfirmasi</string>
+    <string name="upload">Unggah</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="image_to_upload">Gambar untuk diunggah</string>
+    <string name="camera_failed">Kamera gagal</string>
+    <string name="no_permissions">Gagal mendapat Izin</string>
+    <string name="choose_picture">Pilih Gambar</string>
+    <string name="empty_image_warning">Pilih gambar terlebih dahulu.</string>
+    <integer-array name="progress_colors">
+        <item>@color/progress_red</item>
+        <item>@color/progress_yellow</item>
+        <item>@color/progress_green</item>
+        <item>@color/progress_blue</item>
+    </integer-array>
+    <string name="add_widget">Tambah Widget</string>
+    <string name="app_widget_description">Sups Widget</string>
+    <string name="empty_text">Data Kosong</string>
+    <string name="appwidget_text">SUPS BANNER</string>
+    <string name="failed_to_take_picture">Gagal mengambil gambar</string>
+    <string name="permission_request_granted">Permintaan diizinkan</string>
+    <string name="permission_request_denied">Permintaan ditolak</string>
+    <string name="failed_to_launch_camera">Gagal membuka Kamera</string>
+    <string name="capture_image">Ambil Gambar</string>
+    <string name="switch_camera">Ubah Kamera</string>
+    <string name="map_story">Peta Cerita</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="retry">Coba lagi</string>
+    <string name="timeout">Waktu Habis</string>
+    <string name="location">Lokasi</string>
+</resources>

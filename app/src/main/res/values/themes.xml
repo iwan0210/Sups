@@ -1,0 +1,47 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Sups" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="android:colorBackground">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.Sups" parent="Base.Theme.Sups" />
+
+    <style name="Theme.Sups.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.Sups</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+    </style>
+
+    <style name="Theme.Sups.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="buttonBarNegativeButtonStyle">@style/Theme.Sups.NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Theme.Sups.PositiveButtonStyle</item>
+    </style>
+
+    <style name="Theme.Sups.PositiveButtonStyle" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/dark_blue</item>
+    </style>
+
+    <style name="Theme.Sups.NegativeButtonStyle" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="Theme.Sups.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <!-- Radius of the outer bound of widgets to make the rounded corners -->
+        <item name="appWidgetRadius">16dp</item>
+        <!--
+        Radius of the inner view's bound of widgets to make the rounded corners.
+        It needs to be 8dp or less than the value of appWidgetRadius
+        -->
+        <item name="appWidgetInnerRadius">8dp</item>
+    </style>
+
+    <style name="Theme.Sups.AppWidgetContainer" parent="Theme.Sups.AppWidgetContainerParent">
+        <!-- Apply padding to avoid the content of the widget colliding with the rounded corners -->
+        <item name="appWidgetPadding">16dp</item>
+    </style>
+</resources>

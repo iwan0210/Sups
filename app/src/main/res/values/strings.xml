@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Sups</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="email_invalid">Invalid Email!</string>
+    <string name="password">Password</string>
+    <string name="password_invalid">Password must be at least 8 characters long</string>
+    <string name="register_first">Don\'t have an account yet?</string>
+    <string name="register_now">Register Now</string>
+    <string name="register">Register</string>
+    <string name="cannot_be_empty">This field cannot be empty</string>
+    <string name="name">Name</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="content_image">Content Image</string>
+    <string name="an_error_occurred">An Error Has Occurred</string>
+    <string name="no_data_available">No Data Available</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="add_story">Add Story</string>
+    <string name="double_back_exit">Press back again to exit</string>
+    <string name="detail">Detail</string>
+    <string name="language">Language</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirm">Are you sure?</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="upload">Upload</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="image_to_upload">Image to upload</string>
+    <string name="camera_failed">Camera failed</string>
+    <string name="no_permissions">cannot get permission</string>
+    <string name="choose_picture">Choose a Picture</string>
+    <string name="empty_image_warning">Please insert the image first.</string>
+    <integer-array name="progress_colors">
+        <item>@color/progress_red</item>
+        <item>@color/progress_yellow</item>
+        <item>@color/progress_green</item>
+        <item>@color/progress_blue</item>
+    </integer-array>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">Sups Widget</string>
+    <string name="empty_text">NO DATA</string>
+    <string name="appwidget_text">SUPS BANNER</string>
+    <string name="failed_to_take_picture">Failed to take a Picture</string>
+    <string name="permission_request_granted">Permission request granted</string>
+    <string name="permission_request_denied">Permission request denied</string>
+    <string name="failed_to_launch_camera">Failed to launch camera</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="map_story">Maps Story</string>
+    <string name="retry">Retry</string>
+    <string name="timeout">Timeout</string>
+    <string name="location">Location</string>
+</resources>

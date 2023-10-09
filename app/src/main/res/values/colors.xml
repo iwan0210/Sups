@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_blue">#264E86</color>
+    <color name="blue">#0074E4</color>
+    <color name="light_blue">#74DBEF</color>
+    <color name="light_gray">#EFF0F4</color>
+    <color name="red">#CF142B</color>
+    <color name="progress_red">#EA4335</color>
+    <color name="progress_blue">#4285F4</color>
+    <color name="progress_green">#34A853</color>
+    <color name="progress_yellow">#FBBC05</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+</resources>
