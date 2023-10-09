@@ -5,8 +5,6 @@ import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.kotlin.sups.R
 import com.kotlin.sups.data.model.Story
 import com.kotlin.sups.databinding.ItemStoriesBinding
 import com.kotlin.sups.helper.formatDate
