@@ -10,10 +10,10 @@ import com.kotlin.sups.data.model.Story
 @Dao
 interface StoryDao {
 
-    @Query("SELECT * FROM story")
+    @Query("SELECT * FROM story ORDER BY createdAt DESC")
     fun getStories(): List<Story>
 
-    @Query("SELECT * FROM story")
+    @Query("SELECT * FROM story ORDER BY createdAt DESC")
     fun getAllStory(): PagingSource<Int, Story>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
